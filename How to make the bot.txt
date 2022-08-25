@@ -1,0 +1,75 @@
+How to make the discord bot
+step one:
+go to discord developer portal discord.com/developers/
+
+make a app
+
+press on the bot tab
+
+click on the create bot
+
+now scorll down until you find bot perms
+
+put the bot full perms
+
+go to oauth2
+
+change the auth method to in app auth
+
+go to scopes
+
+click on bot
+
+dont go back to the bot tab on the oauth go to bot perms and do it admin
+
+go to url generator
+
+make the scopes bot
+
+make the bot admin on the bot perms
+
+copy the link and invite your bot to the server
+
+step two
+
+go to replit: replit.com
+
+make a new repl
+
+copy the code and paste it
+
+{
+  "token": "insert_token_here",
+  "prefix": "!",
+  "ownerIDS": [
+    "ownerIDS"
+  ],
+  "mongo": "MONGO_DB_URL",
+  "everyoneMention": false,
+  "hostedBy": true,
+  "customFilters": {
+    "clear": "dynaudnorm=f=200",
+    "lowbass": "bass=g=6,dynaudnorm=f=200",
+    "bassboost": "bass=g=20,dynaudnorm=f=200",
+    "purebass": "bass=g=20,dynaudnorm=f=200,asubboost,apulsator=hz=0.08",
+    "8D": "apulsator=hz=0.08",
+    "vaporwave": "aresample=48000,asetrate=48000*0.8",
+    "nightcore": "aresample=48000,asetrate=48000*1.25",
+    "phaser": "aphaser=in_gain=0.4",
+    "tremolo": "tremolo",
+    "vibrato": "vibrato=f=6.5",
+    "reverse": "areverse",
+    "treble": "treble=g=5",
+    "normalizer": "dynaudnorm=f=200",
+    "surrounding": "surround",
+    "pulsator": "apulsator=hz=1",
+    "subboost": "asubboost",
+    "karaoke": "stereotools=mlev=0.03",
+    "flanger": "flanger",
+    "gate": "agate",
+    "haas": "haas",
+    "mcompand": "mcompand"
+  }
+}
+
+click on run and youre done :]
